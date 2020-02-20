@@ -1,0 +1,27 @@
+html,body{
+	height:100%;
+}
+body{
+	background: linear-gradient(45deg, rgba(255,93,177,1) 0%, rgba(255,93,177,1) 56%, rgba(253,80,170,1) 62%, rgba(239,1,124,1));
+}
+
+h1{
+	color:pink;
+	font-family: 'Shadows Into Light', cursive;
+	letter-spacing: 0.1em;
+	text-align:center;
+	text-shadow:0 0em 0.5em white;
+}
+.galeria{
+	
+	display:flex;
+	justify-content:space-around;
+	margin:0 auto;
+	width:80%;
+}
+.galeria div{
+	filter:grayscale(1);
+}
+.galeria div:hover{
+   filter:grayscale(0);
+}
